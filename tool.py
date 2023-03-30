@@ -18,7 +18,45 @@ from secrets import token_hex
 import secrets, sys
 import datetime
 import pyfiglet,threading
+r = requests.session()
+now = datetime.datetime.today()
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
 
+t=(mm + "/" + dd + "/" + yyyy + " " + hour+ ":" + mi + ":" + ss)
+
+Z = '\033[1;31m' #احمر
+hours = (now.hour)
+x = datetime.datetime.now()
+g= datetime.datetime(2023, 3, 18 , 11, 00 ,0)
+
+if (x.strftime("%x"))>(g.strftime("%x")):
+ print('\n\n')
+ print('\n\n')
+ print(x)
+ 
+ sys.exit(0)
+ 
+
+if (x.strftime("%x"))==(g.strftime("%x")):
+   print('')
+   if(x.strftime("%X"))>(g.strftime("%X")):
+    print('\n')
+    print('\n')
+    print(x)
+    
+    sys.exit(0)
+   else:
+    print('')  
+else:
+    print('')
+print('')
+os.system('clear')
 
 #------------------colors---------------#
 Z = '\033[1;31m' #احمر
