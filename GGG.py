@@ -303,7 +303,7 @@ def mo():
 
 [💔] NAME ➥ {name}
 
-[👻] Username ➥ {user}@gmail.com
+[👻] Username ➥ {user}
 
 [💝] EMAIL ➥ {user}@gmail.com
 
